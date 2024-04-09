@@ -1,0 +1,477 @@
+body, html{
+    
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Pontano Sans", sans-serif;
+    background-color: #010409;
+}
+
+
+/*SCTION CONTAINER FIRTS- el color blanco oscuro del primer cuadro*/
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6F8FA;
+}
+.container .firts{
+    margin: 0px 150px 0px 150px;
+}
+.container .firts .icon{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    align-items: center;
+    margin-left: -110px;
+    gap: 10px;
+    font-size: 15px;
+
+}
+
+.container .firts .icon i{
+    font-size: 34px;
+    cursor: pointer;
+    color: #1F2328;
+    padding-bottom: 2px;
+}
+
+/* Letra skills del icono de gato*/
+.container .firts .icon h4{
+    cursor: pointer;
+    color: #1F2328;
+    margin-left: -4px;
+}
+.container .firts .icon i:hover{
+    color: #2F81F7;
+}
+.container .firts .icon h4:hover{
+    color: #2F81F7;
+}
+
+.container .firts .second{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    justify-content: space-between;
+}
+/*Parte es del titulo GITHUB */
+.container .firts .second h1{
+    color: #1F2328;
+    margin: 22px 0px 10px 0px;
+    margin-left: -110px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+/*Parrafo */
+.container .firts .second p{
+    color: #848D97;
+    font-size: 22px;
+    margin: 0px 0px 50px 0px;
+    margin-left: -102px;;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    
+}
+
+
+.container .firts .second .hijo1{
+    width: 55%;
+}
+.container .firts .second .hijo2{
+    width: 30%;
+
+}
+.container .firts .second .hijo1 .contenedorA{
+    width: 250px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #238636;
+    border-radius: 5px;
+    margin-left: -110px;
+    font-weight: bold;
+    
+}
+.container .firts .second .hijo1 .contenedorA:hover{
+    background-color: rgb(25, 193, 59);
+
+
+
+}
+
+.container .firts .second .hijo1 a{
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    font-size: 14px;
+    
+}
+.container .firts .second .hijo2 img{
+
+    width: 320px;
+}
+
+
+/*SECCION  DOS */
+.container .coursers{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: auto;
+}
+
+.container .coursers .contenidoCourses{
+    margin: 0px 150px 0px 150px;
+    height: auto;
+    padding: 10px;
+}
+
+.container .coursers .contenidoCourses h2{
+    color: #1F2328;
+    font-size: 22px;
+    margin-left: -100px;
+    margin-top: 70px;
+
+
+}
+.container .contenidoCourses h3{
+    color: #0969DA;
+    font-size: 18px;
+    margin-left: -100px;
+    margin-top: 40px;
+
+    
+}
+
+.container .contenidoCourses a{
+    text-decoration: none;
+}
+/* esta seccion permite ampliar lso cuadros*/
+.container .coursers .contenidoCourses .cursos{
+    width: 122%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    
+    
+
+}
+
+
+.container .coursers .contenidoCourses .cursos .cards{
+    
+    width: 40%;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #D0D7DE;
+    padding: 10px;
+    
+
+}
+
+.container .coursers .contenidoCourses .cursos .cards h4{
+    color: #0969DA;
+    font-size: 15px;
+    margin-top: 10px;
+    
+    
+}
+
+.container .coursers .contenidoCourses .cursos .cards p{
+    color: #656D76;
+    font-size: 14px;
+
+    
+
+}
+
+.container .cursos{
+    display:flex;
+    margin-left: -100px;
+    margin: 10px;
+    
+}
+
+/*seccion 2 First week on GitHub*/
+.container .first .contenidoFirst h4{
+    color:#0969DA;
+    margin-left: -100px;
+    font-size: 18px;
+}
+
+.container .first .cursos1 .cards1 h4{
+    color:#0969DA;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.container .first .cursos1 .cards1 p{
+    color: #656DA2;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.container .first .cursos1 .cards1{
+
+    width: 40%;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #D0D7DE;
+    padding: 10px;
+
+}
+
+.container .first .cursos1{
+    width: 122%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+}
+
+/*seccion parte 2 de los cuadros de abajito de first*/
+.container .first .Cursos2 .cards2 h4{
+    color:#0969DA;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.container .first .Cursos2 .cards2 p{
+
+    color: #656DA2;
+    font-size: 14px;
+    margin-top: 5px;
+
+}
+
+.container .first .Cursos2 .cards2{
+
+    width: 40%;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #D0D7DE;
+    padding: 10px;
+}
+
+.container .first .Cursos2{
+    width: 122%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    padding-top: 30px;
+}
+
+
+/*Seccion 3 de cursos */
+
+.container .first1 .contenidofirst1 h3{
+    color: #0969DA;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.container .first1 .cursos3 .cards3 h4{
+
+    color:#0969DA;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.container .first1 .cursos3 .cards3 p{
+    color: #7E6DA2;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.container .first1 .cursos3 .cards3{
+
+    width: 40%;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #D0D7DE;
+    padding: 10px;
+
+}
+.container .first1 .cursos3{
+    width: 122%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    padding-top: 5px;
+}
+/*Seccion 3 parte 2*/
+.container .first1 .cursos4 .cards4 h4{
+    color:#0969DA;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.container .first1 .cursos4 .cards4 p{
+    color: #7E6DA2;
+    font-size: 14px;
+}
+
+.container .first1 .cursos4 .cards4{
+    width: 40%;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #D0D7DE;
+    padding: 10px;
+}
+
+.container .first1 .cursos4{
+    width: 122%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    padding-top: 30px;
+    
+
+}
+
+/*Seccion 4 de cursos */
+
+.container .first2 .contenidofirst2 h3{
+    color:#0969DC;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.container .first2 .cursos5 .cards5 h4{
+    color:#0969DA;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.container .first2 .cursos5 .cards5 p{
+    color: #7E6DA2;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.container .first2 .cursos5 .cards5{
+    width: 40%;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #D0D7DE;
+    padding: 10px;
+
+}
+
+.container .first2 .cursos5 {
+
+    width: 122%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+}
+
+/*parte 2 de los cursos 4*/
+
+.container .first2 .cursos6 .cards6 h4{
+    color:#0969DA;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.container .first2 .cursos6 .cards6 p{
+    color: #7E6DA2;
+    font-size: 14px;
+
+}
+
+.container .first2 .cursos6 .cards6{
+    width: 40%;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #D0D7DE;
+    padding: 10px;
+}
+
+.container .first2 .cursos6{
+    width: 92%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -160px;
+    padding-top: 30px;
+}
+
+/*penultima parte*/
+.container .first3 .contenidofirst3 h4{
+    color: #1F2328;
+    font-size: 18px;
+    margin-top: 9px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.container .first3 .contenidofirst3 {
+    width: 90%;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #D0D7DE;
+    padding: 10px;
+    margin-top: 80px ;
+}
+
+.container .first3 .contenidofirst3{
+    width: 120%;
+    display: flex;
+    gap: 30px;
+    margin-left: -100px;
+}
+
+.container .first3 .contenidofirst3 .buttom h4{
+    margin-right: 20px;
+    padding-left: 370px;
+    font-size: 15px;
+    color: #0969DA;
+}
+
+.container .linea hr{
+    margin-top: 100px;;
+    width: 120%;
+    margin-left: -90px;
+}
+
+.container .final .final1 h3{
+    color: #1F2328;
+    font-size: 14px;
+    
+}
+.container .final1 h4{
+    color: #099BEB;
+    font-size: 14px;
+    display: flex;
+    margin: 0 10px;
+    padding-top: 40px;
+
+
+}
+
+.container .final{
+
+    display: flex;
+}
